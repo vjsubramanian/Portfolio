@@ -416,3 +416,47 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+---------------------------------------------------------
+.logo{
+    float:right; 
+}
+#nav {
+    display: table;
+    height: 87px;
+    width: 100%;
+   
+}
+
+#nav li {
+    display: table-cell;
+    height: 87px;
+    width: 16.666666667%;  /* (100 / numItems)% */
+    line-height: 87px;
+    text-align: right;
+    
+    white-space: nowrap;
+    padding-right:50px;
+   
+}
+
+.macimg{
+    margin-top:60px;
+}
+.macbutton {
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.iphonebutton {
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.iphoneslide{
+    margin-top:5px;
+    margin-left:50px;
+}
+
+.screen1{
+    margin-left: -110px;
+}
