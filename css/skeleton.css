@@ -594,13 +594,13 @@ footer {
 	}
 .contactcontent{
     text-align: left;
-    padding-top:20px;
-    padding-left: 100px;
+    padding-top: 50px;
+    padding-left: 75px;
     text-decoration: none;
     color: white;
-    font-size: 23px;
+    font-size: 21px;
     font-family: 'lato', sans-serif; 
     font-weight: none;
     letter-spacing: 1px;
-    word-spacing:7px;
+     word-spacing:7px;
 }  
