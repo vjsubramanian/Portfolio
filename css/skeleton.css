@@ -434,9 +434,6 @@ body {
     
 	}
 
-.name a:hover {
-		background-color: #aaa;
-	}
 /*--links--*/
 .navselected a {
 		color: #303030;
@@ -576,35 +573,33 @@ footer {
 	}
 
 /*------contact page------*/
-.form {
+.formcontact {
   background: url('../images/contactpagebg.png') top center no-repeat;
   background-size: cover;
-  min-width: 1440px; 
+  min-width: 960px; 
   min-height: 678px;
   width: 100%;
   background-position: center;
 } 
 
-h2{
+.contactheader{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 75px;
     text-decoration: none;
     color: #22C2FC;
     font-weight: 75;
-    font-family: 'lato', sans-
-    serif;
+    font-family: 'lato', sans-serif;
     letter-spacing: 1px;
     word-spacing:7px;
 	}
-p{
+.contactcontent{
     text-align: left;
-    padding-top:50px;
+    padding-top:20px;
     padding-left: 100px;
     text-decoration: none;
     color: white;
-    font-size: 22px;
-    font-family: 'lato', sans-
-    serif; 
+    font-size: 23px;
+    font-family: 'lato', sans-serif; 
     font-weight: none;
     letter-spacing: 1px;
     word-spacing:7px;
