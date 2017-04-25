@@ -575,3 +575,37 @@ footer {
     
 	}
 
+/*------contact page------*/
+.form {
+  background: url('../images/contactpagebg.png') top center no-repeat;
+  background-size: cover;
+  min-width: 1440px; 
+  min-height: 678px;
+  width: 100%;
+  background-position: center;
+} 
+
+h2{
+    text-align: center;
+    padding-top: 100px;
+    text-decoration: none;
+    color: #22C2FC;
+    font-weight: 75;
+    font-family: 'lato', sans-
+    serif;
+    letter-spacing: 1px;
+    word-spacing:7px;
+	}
+p{
+    text-align: left;
+    padding-top:50px;
+    padding-left: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'lato', sans-
+    serif; 
+    font-weight: none;
+    letter-spacing: 1px;
+    word-spacing:7px;
+}  
