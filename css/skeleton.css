@@ -124,7 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -152,7 +152,10 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+    
+    
+}
 
 
 /* Links
@@ -615,14 +618,33 @@ footer {
 
 /*case study*/
 
-
-
-/*
-.problem{
-   background-color: aquamarine;
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
-   margin-top: 1em;*/
-   
+.Crowdfund h3 {
+    
+    text-align: center;
+    color:#5BC1BE;
+    font-weight: 400;
 }
+.Crowdfund h5 {
+    
+    font-weight: 400;
+}
+
+.section {
+  padding: 8rem 0 7rem;
+  text-align: left;
+}
+.values {
+  background: #5D5D5D;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.surveybg {
+    background-image: url("../images/surveybg.png");
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+    margin-top: 1em;
+}
+
 
