@@ -616,7 +616,7 @@ footer {
     padding-top: 35px;
 }
 
-/*case study*/
+/*case study crowdfund*/
 
 .Crowdfund h3 {
     
@@ -639,12 +639,47 @@ footer {
   color: #fff;
   padding-bottom: 5rem;
 }
-
+.summarybg {
+    background-image: url("../images/summarybg.png");
+    background-repeat: no-repeat;
+   background-size: 80% 80%;
+    margin-top: 1em;
+}
 .surveybg {
     background-image: url("../images/surveybg.png");
     background-repeat: no-repeat;
    background-size: 100% 100%;
     margin-top: 1em;
 }
+/*--case study cravings--*/
 
+
+.cravings h3 {
+    
+    text-align: center;
+    color:#FF830E;
+    font-weight: 400;
+}
+.cravings h5 {
+    
+    font-weight: 400;
+}
+
+.section {
+  padding: 8rem 0 7rem;
+  text-align: left;
+}
+.valuescravings {
+  background: #5D5D5D;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+.surveybgcravings {
+    background-image: url("../images/surveybgcravings.png");
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+    margin-top: 1em;
+}
 
