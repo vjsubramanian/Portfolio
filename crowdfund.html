@@ -21,10 +21,15 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/lightbox.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+    
+      <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/lightbox-plus-jquery.js"></script>
     
     
 
@@ -57,18 +62,20 @@
     <!-- Crowdfund Section
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
    <div class="Crowdfund">
-       
+      
    <div class="container">
        <div class="twelve column">
        <h3>Case Study - Lend A Hand</h3>
            <br>
+           <br>
+           
            <h5>Summary</h5>
            <p>Crowd Funding is an effective way to raise money for ventures.This has been an existing project that was taking place through mail-order subscriptions and other methods. But with Internet-mediated registries, crowd funding model has becoming a challenge with various factors including trustworthy, easy to use websites, tracking statistics, etc… 
            Next to being trustworthy, user experiences have been setting a back for the people who desire to donate. I have designed ‘Lend A Hand’, a CrowdFunding application addressing all the pain areas with improved User experience.</p>
     
         </div>
        </div>
-        
+      
       <div class="section values">
     <div class="container">
     <div class="problem">
@@ -101,7 +108,7 @@ I conducted a user survey which opened up various avenues that helped me build t
         <li>80% of the users were interested in knowing ‘Dollars needed’, 70%             interested in knowing ‘Dollars raised’, 50% in knowing ‘End date for         donation’ and 50% in knowing ‘How many donors’. </li>
         </ul>
         <hr>
-       <a href="#"><img class = "u-max-full-width" src="images/surveyscreens.png"></a> 
+       <img class = "u-max-full-width" src="images/surveyscreens.png"> 
         <br>
         <br>
         <h5>Survey Conclusion</h5>
@@ -118,7 +125,10 @@ I conducted a user survey which opened up various avenues that helped me build t
                 <h5>Competitive Analysis</h5>
             <p>To better understand crowd funding applications, I conducted SWOT ( Strength, Weakness, Opportunities, Threat ) analysis on some of the existing web applications in the market.</p>
                 
-              <a href="#"><img class = "u-max-full-width" src="images/swotscreen.png"></a>    
+                
+                 
+               <a href="#"><img class = "u-max-full-width" src="images/swotscreen.png"></a>   
+                 
             
             </div>
         </div>
@@ -126,9 +136,13 @@ I conducted a user survey which opened up various avenues that helped me build t
         <div class="container">
             <div class="personas">
                  <h5>User Personas</h5>
-                <p>I created User personas picking users who regularly use crowd funding applications to donate. I drafted their experiences based on their Motivation, goals and frustration.</p>
-                <a href="#"><img class = "u-max-full-width" src="images/Personas.png"></a>
-            </div>
+                <p>I created User personas picking users who regularly use crowd funding applications to donate. I drafted their experiences based on their Motivation, goals and frustration.</p> 
+                
+                <a href="images/Persona1.jpg" data-lightbox="persona">
+                <a href="images/Persona2.jpg" data-lightbox="persona">   
+                    
+                   <img class = "u-max-full-width" src="images/Personas.png">Click to enlarge</a>
+               </div>
         </div>
         <hr>
         <div class="container">
@@ -137,11 +151,12 @@ I conducted a user survey which opened up various avenues that helped me build t
                 <p>I created user stories and flows using the results from my survey. This helped ensure that each flow was prioritized and obstacle-free. I made sure to include multiple access points, a clear start and finish and illustrated steps in sequential order. My focus was to make sure that the users can have a successful experience from start to finish.
                 </p>
                
-                 <a href="#"><img class = "u-max-full-width" src="images/crowdfunduserstories.png"></a>
+                <img class = "u-max-full-width" src="images/crowdfunduserstories.png">
                 <br>
                 <br>
-            
-                 <a href="#"><img class = "u-max-full-width" src="images/crowdfunduserflow.png"></a>
+                <br>
+            <a href="images/crowdfunduserflowhires.png" data-lightbox="userflows">
+                 <img class = "u-max-full-width" src="images/crowdfunduserflow.png">Click to enlarge</a>
             </div>
         </div>
         <hr>
@@ -151,7 +166,14 @@ I conducted a user survey which opened up various avenues that helped me build t
                 <h5>Low Fidelity Wireframes</h5>
                 <p>After completing my user research, I was ready to begin creating the look and feel of my product. With the help of my user flows and user stories, I created each screen by walking through each step. Low fidelity wireframes were created within Balsamiq.       
                 </p>
-                <a href="#"><img class = "u-max-full-width" src="images/cfwireframebg.png">View all wireframes.</a>
+                 <a href="images/crowdfundwireframes_Page_7.png" data-lightbox="wireframes">
+                 <a href="images/crowdfundwireframes_Page_6.png" data-lightbox="wireframes">
+                 <a href="images/crowdfundwireframes_Page_5.png" data-lightbox="wireframes">
+                 <a href="images/crowdfundwireframes_Page_4.png" data-lightbox="wireframes">
+                 <a href="images/crowdfundwireframes_Page_3.png" data-lightbox="wireframes">
+                 <a href="images/crowdfundwireframes_Page_2.png" data-lightbox="wireframes">
+                 <a href="images/crowdfundwireframes_Page_1.png" data-lightbox="wireframes">
+                <img class = "u-max-full-width" src="images/cfwireframebg.png">View all wireframes.</a>
             </div>
         </div>
         <hr>
@@ -198,7 +220,11 @@ I conducted a user survey which opened up various avenues that helped me build t
         
     <div class="container">
     <div class="prototype">
-    <a href="https://invis.io/RPASGL7FJ">View Prototype</a>
+        <div class="twelve column">
+         <h5>View Prototype</h5>
+        <iframe frameborder="1" width="960" height="700" src="https://invis.io/RPASGL7FJ#/222774126_HomePage" allowfullscreen></iframe></div>
+      
+    
         </div>
     </div>
     </div>
