@@ -679,7 +679,7 @@ footer {
 .surveybgcravings {
     background-image: url("../images/surveybgcravings.png");
     background-repeat: no-repeat;
-   background-size: 100% 50%;
+   background-size: 100% 100%;
     margin-top: 1em;
 }
 
