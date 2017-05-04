@@ -639,12 +639,7 @@ footer {
   color: #fff;
   padding-bottom: 5rem;
 }
-.summarybg {
-    background-image: url("../images/summarybg.png");
-    background-repeat: no-repeat;
-   background-size: 80% 80%;
-    margin-top: 1em;
-}
+
 .surveybg {
     background-image: url("../images/surveybg.png");
     background-repeat: no-repeat;
@@ -653,7 +648,9 @@ footer {
 }
 /*--case study cravings--*/
 
-
+.u-max-full-width-survey{
+    padding-left:110px;
+}
 .cravings h3 {
     
     text-align: center;
@@ -692,3 +689,19 @@ footer {
    background-size: 100% 100%;
     margin-top: 1em;
 }*/
+/*-----about-----*/
+
+.aboutme{
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
