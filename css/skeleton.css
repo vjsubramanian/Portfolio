@@ -457,6 +457,7 @@ nav {
 		font-weight: 400;
 		letter-spacing: 0.5px;
 		text-transform: uppercase;
+       
 	}
 nav li {
 		list-style: none;
@@ -479,7 +480,7 @@ nav a {
 
 #nav {
     display: table;
-    height: 87px;
+    height: 100px;
     width: 100%;
    
 }
@@ -488,11 +489,11 @@ nav a {
     display: table-cell;
     height: 87px;
     width: 16.666666667%;  /* (100 / numItems)% */
-    line-height: 87px;
+    line-height: 100px;
     text-align: right;
     
     white-space: nowrap;
-    padding-right:50px;
+    padding-right:10px;
    
 }
 /*----------Mac n iphone n vfx-----*/
@@ -537,16 +538,16 @@ header h3 {
 .vt4 {
    text-align: left;
   padding-right: 20px;
-     margin-top: 10px;
+     margin-top: none;
     margin-left: 0px;
 
 }
 .hacker{
-    margin-top: 40px;
+    margin-top: none;
     margin-left: 0px;
 }
 .vfx {
-    margin-top: 40px;
+    margin-top: none;
     margin-left: 0px;
     
 }
@@ -693,15 +694,34 @@ footer {
 
 .aboutme{
     
+    text-align:left;
+    padding-top: none;
+    padding-left: none;
+    line-height: none;
     
-    
-    
+    color: black;
+    font-size: 21px;
+    font-family: 'lato-regular', sans-serif; 
+    font-weight: none;
+    letter-spacing: none;
+    word-spacing:5px;
+    font-weight: none;
 }
 
 
+.about button {
+   background-color: #5D5D5D;
+    border-color: none;
+    color: white;
+    font-weight: 200;
+}
 
 
+.about h3 {
+    
+    text-align: center;
+}
 
-
+/*-----fixed nav bar-----*/
 
 
