@@ -701,7 +701,7 @@ footer {
     
     color: black;
     font-size: 21px;
-    font-family: 'lato-regular', sans-serif; 
+    font-family: 'lato-light', sans-serif; 
     font-weight: none;
     letter-spacing: none;
     word-spacing:5px;
@@ -720,6 +720,21 @@ footer {
 .about h3 {
     
     text-align: center;
+}
+.about h2 {
+    
+    text-align: center;
+}
+
+.myprocess {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'lato-light', sans-serif;
+}
+.mytools {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'lato-light', sans-serif;
 }
 /*-----endlink cravings-----*/
 .endcravings {
