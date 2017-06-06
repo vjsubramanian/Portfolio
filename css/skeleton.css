@@ -438,6 +438,13 @@ body {
 	}
 
 /*--links--*/
+
+/*--fixed nav
+.navbg {
+    background: azure;
+   
+    
+}--*/
 .navselected a {
 		color: #303030;
 	}
@@ -451,6 +458,7 @@ a:hover {
 	}
 
 nav {
+    
 		font-size: 16px;
 		float: right;
 		margin: 80px auto 36px auto;
@@ -717,24 +725,40 @@ footer {
 }
 
 
-.about h3 {
-    
-    text-align: center;
-}
 .about h2 {
     
     text-align: center;
 }
 
-.myprocess {
-    text-align: center;
-    font-size: 23px;
-    font-family: 'lato-light', sans-serif;
+.myprocess{
+    
+    text-align:center;
+    padding-top: none;
+    padding-left: none;
+    line-height: none;
+    
+    color: black;
+    font-size: 21px;
+    font-family: 'lato-light', sans-serif; 
+    font-weight: none;
+    letter-spacing: none;
+    word-spacing:7px;
+    font-weight: none;
 }
-.mytools {
-    text-align: center;
-    font-size: 23px;
-    font-family: 'lato-light', sans-serif;
+.mytools{
+    
+    text-align:center;
+    padding-top: none;
+    padding-left: none;
+    line-height: none;
+    
+    color: black;
+    font-size: 21px;
+    font-family: 'lato-light', sans-serif; 
+    font-weight: none;
+    letter-spacing: none;
+    word-spacing:5px;
+    font-weight: none;
 }
 /*-----endlink cravings-----*/
 .endcravings {
