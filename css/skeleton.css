@@ -238,7 +238,7 @@ input[type="password"],
 textarea,
 select {
   height: 38px;
-  padding: 6px 90px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: whitesmoke;
   border: none;
   border-radius: 4px;
@@ -439,12 +439,7 @@ body {
 
 /*--links--*/
 
-/*--fixed nav
-.navbg {
-    background: azure;
-   
-    
-}--*/
+
 .navselected a {
 		color: #303030;
 	}
@@ -593,7 +588,7 @@ footer {
   min-height: 678px;
   width: 100%;
   background-position: center;
-    padding-top: 100px;
+    padding-top: 50px;
 } 
 
 .contactheader{
@@ -618,7 +613,7 @@ footer {
     font-weight: none;
     letter-spacing: none;
     word-spacing:5px;
-    font-weight: none;
+    
 }  
 
 .blankforms{
